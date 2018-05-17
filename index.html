@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>C&L Property Management</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+
+<!-- NAV BAR -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="./images/Logo.png" class="img-fluid" alt="logo"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Properties_List.html">Properties List</a></li>
+        <li><a href="Service.html">Service</a></li>
+        <li><a href="Contact_Us.html">Contact Us</a></li>
+        <li><a href="Submit_Property.html">Submit Property</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- img -->
+<div class="container-fluid" id="container-fluid-img">
+<img class="img-responsive" src="./images/house.jpg" alt="img">
+</div>
+
+<!-- card -->
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="container-fluid">
+    <div class="card card-block">
+    <h4 class="card-title">For Home Owners</h4>
+    <p class="card-text">Maybe you’re moving up to a bigger home and holding on to your former residence as a rental property. Or maybe you’ve tried to sell your home without success. Whatever the reason, if you’re thinking about renting out your home, we are here to help. <br> <br> <br><br></p>
+    <a href="#" class="btn btn-danger btn-lg btn-block">More</a>
+    </div>
+
+    </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="container-fluid">
+
+    <div class="card card-block">
+    <h4 class="card-title">For Renters</h4>
+    <p class="card-text">Are you moving, starting college or just need a bigger place for the family? Our professionals are here to help you with finding your dream home, coordinating a moving company, and making you feel comfortable and safe. Finding a new place to rent can be tough. But from our experienced agents , you will soon be on your way into moving into a new home.</p>
+    <a href="#" class="btn btn-danger btn-lg btn-block">More</a>
+    </div>
+
+    </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="container-fluid">
+
+  <div class="card card-block">
+  <h4 class="card-title">For Buyers</h4>
+  <p class="card-text">Are you thinking about getting into the real estate market as a home owner or investor for the first time? Or do you know of anyone looking to purchase their first home? We would be grateful if you passed along the invitation! we have our mortgage specialist, Lawyer, and licensed home inspector here to help on your find, mortgage, inspect, and closing!</p>
+  <a href="#" class="btn btn-danger btn-lg btn-block">More</a>
+  </div>
+
+  </div>
+    </div>
+  </div>
+</div><br>
+
+<!-- "Search Properties" -->
+<div class="container">
+  <p id="search_paragraph">Search Properties</p>
+</div>
+<div class="container" id="search_container">
+<div class="col-sm-3">
+  <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">All Actions
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu">
+    <li><a href="#">HTML</a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="#">JavaScript</a></li>
+    <li class="divider"></li>
+    <li><a href="#">About Us</a></li>
+  </ul>
+  </div>
+  <input class="form-control" id="input" type="text" value="Type bedroom NO.">
+  </div>
+
+<div class="col-sm-3">
+    <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">All Types
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+      <li class="divider"></li>
+      <li><a href="#">About Us</a></li>
+    </ul>
+    </div>
+    <input class="form-control" id="input" type="text" value="Type bathroom NO.">
+</div>
+
+<div class="col-sm-3">
+  <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">All Cities
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu">
+    <li><a href="#">HTML</a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="#">JavaScript</a></li>
+    <li class="divider"></li>
+    <li><a href="#">About Us</a></li>
+  </ul>
+  </div>
+  <input class="form-control" id="input" type="text" value="Type Min Prices">
+  </div>
+
+  <div class="col-sm-3">
+    <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">All Areas
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+      <li class="divider"></li>
+      <li><a href="#">About Us</a></li>
+    </ul>
+    </div>
+    <input class="form-control" id="input" type="text" value="Type Max Prices">
+    </div>
+
+<button type="submit" class="btn btn-success" id="btn-search">Search</button>
+</div>
+
+<!-- "Recent Properties" -->
+
+<div class="container" >
+  <p id="recent-properties">Recent Properties</p>
+<div class="row">
+  <div class="col-sm-4">
+    <div class="panel panel-primary">
+      <div class="panel-heading">Kanata Lakes 4 bedroom with walkout basement...</div>
+      <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+      <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="panel panel-danger">
+      <div class="panel-heading">Centrepointe. Paseo Private 2+1 condo availa...</div>
+      <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+      <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="panel panel-success">
+      <div class="panel-heading">200 Rideau Street, 2BR 2BATH available immin...</div>
+      <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+      <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- footer -->
+<footer class="container-fluid text-center">
+  <p>© 2016 C&L Property Management All Rights Reserved. <br> </p>
+  <a href="Privacy_Policy.html" >Privacy Policy</a>  <br>
+  <a href="Terms_of_Use">Terms of Use</a>
+</footer>
+</body>
+</html>
