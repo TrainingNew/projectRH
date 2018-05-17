@@ -1,0 +1,83 @@
+/* index page*/
+/* background white */
+body {
+    background-color: white;
+}
+
+/* Remove the navbar's default rounded borders and increase the bottom margin */
+    .navbar {
+      margin-bottom: 0px;
+      border-radius: 0;
+      height: 100px;
+    }
+
+/* Add a background color and some padding to the footer */
+  footer {
+      background-color: #2d2d30;
+      color: #f5f5f5;
+      padding: 32px;
+  }
+  footer a {
+      color: #f5f5f5;
+         position: static;
+        right: 0px;
+  }
+  footer a:hover {
+      color: #777;
+      text-decoration: none;
+      
+  }  
+/* image in the middle*/
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* image in the middle*/
+
+.navbar-brand>img{
+    max-height: 350%;
+}
+
+.card.card-block{
+   padding-top: 1em; 
+}
+
+.btn-danger{
+    background-color: dodgerblue;
+}
+
+/* search container*/
+#search_container{
+    background-color:ghostwhite;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    
+}
+#search_paragraph{
+    text-indent: -10px;
+    padding: 7px;
+}
+
+#recent-properties{
+    text-indent: -10px;
+    padding: 7px;
+}
+
+.btn{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#btn-search{
+    width: 50%;
+    margin-left: 15px;    
+}
+
+/* contact us page*/
+#send_message{
+    max-width: 100%;
+}
+#contact-us{
+    padding: 25px;
+}
